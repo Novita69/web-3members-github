@@ -12,6 +12,7 @@
     padding-bottom: 5px;
 }
 .btn-upload{
+    background-color: #E6DDC4;
     width: 5em;
     padding: 1px 6px;
     border-radius: 5px;
@@ -20,6 +21,7 @@
     border-style: none;  
 }
 .alert-style-upload{
+    background-color: #f8f4e7;;
     border-radius: 20px;
     margin: 5px 10px;
     text-align: center;
