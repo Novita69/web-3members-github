@@ -111,3 +111,9 @@
 .form-label-style{
     margin-top: 20px;
 }
+
+footer {
+    background-image: url(asset/img/f.jpg);
+    color: white;
+    border-radius: 17px;
+}
