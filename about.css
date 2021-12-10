@@ -18,7 +18,8 @@
 
         .img-nav-style {
             border-radius: 10px;
-            background-color: #B9F6CA;
+            background-color: #F0E9D2;
+
         }
 
         .navbar-nav-menu-style {
@@ -43,7 +44,7 @@
             display: flex;
             margin-left: 70px;
             border-radius: 15px;
-            background-color: #B9F6CA;
+            background-color: #F0E9D2;
 
         }
 
@@ -52,7 +53,8 @@
             margin-bottom: 25px;
             border-radius: 20px;
             height: auto;
-            background-color: #B9F6CA;
+            background-color: #F0E9D2;
+
         }
 
         .card-img-style {
@@ -74,7 +76,7 @@
             align-items: center;
             margin: 40px;
             border-radius: 20px;
-            background-color: #B9F6CA;
+            background-color: #F0E9D2;
         }
 
         .add-margin {
@@ -93,7 +95,8 @@
 
             border-radius: 15px;
             margin-top: 15px;
-            background-color: #B9F6CA;
+            background-color: #F0E9D2;
+
         }
 
         p.style-tab-p {
