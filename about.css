@@ -1,0 +1,108 @@
+     
+        .container-fluid-content-style {
+            margin-bottom: 25px;
+            justify-content: center;
+            border-radius: 20px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .navbar-style {
+
+            margin-top: 25px;
+            margin-bottom: 25px;
+            border-radius: 20px;
+            height: 100px;
+        }
+
+        .img-nav-style {
+            border-radius: 10px;
+            background-color: #B9F6CA;
+        }
+
+        .navbar-nav-menu-style {
+            flex-direction: row;
+            padding: 5px;
+        }
+
+
+        .nav-link-home-style {
+
+            margin-right: 35px;
+
+        }
+
+        .nav-link-about-style {
+
+            margin-left: 35px;
+        }
+
+        .alert-primary-style {
+
+            display: flex;
+            margin-left: 70px;
+            border-radius: 15px;
+            background-color: #B9F6CA;
+
+        }
+
+        .footer-style {
+
+            margin-bottom: 25px;
+            border-radius: 20px;
+            height: auto;
+            background-color: #B9F6CA;
+        }
+
+        .card-img-style {
+            border: 1px solid;
+            margin-top: 10px;
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+        }
+
+        .breadcrumb-item+.breadcrumb-item::before {
+
+            content: url('assets/chevron-double-right.svg');
+
+        }
+
+        .card-style {
+            display: flex;
+            align-items: center;
+            margin: 40px;
+            border-radius: 20px;
+            background-color: #B9F6CA;
+        }
+
+        .add-margin {
+            margin-left: 5px;
+            margin-right: 5px;
+
+        }
+
+        .row-ourteam-style {
+            justify-content: center;
+            border-radius: 15px;
+
+        }
+
+        .box-history-style {
+
+            border-radius: 15px;
+            margin-top: 15px;
+            background-color: #B9F6CA;
+        }
+
+        p.style-tab-p {
+
+            display: inline-block;
+            width: 150px;
+            display: inline;
+            zoom: 1;
+            margin-left: 20px;
+
+        }
+  
