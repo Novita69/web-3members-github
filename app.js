@@ -7,7 +7,7 @@ function detail(num, str) {
     let mdlTitle = document.getElementById('mdl-title');
     let mdlImage = document.getElementById('mdl-img');
     let mdlPrice = document.getElementById('mdl-price');
-    mdlTitle.innerHTML = `${artist.innerHTML} <p>${title.innerHTML}</p>`
+    mdlTitle.innerHTML = `${artist.innerHTML}<p> ${title.innerHTML}</p>`
     mdlImage.innerHTML = image.innerHTML;
     mdlDetail.innerHTML = str;
     mdlPrice.innerHTML = price.innerHTML;
@@ -25,7 +25,7 @@ uploadForm.addEventListener('submit', function (e) {
     console.log(artist, picture, title, price, description)
     let item = document.createElement('div');
     item.classList.add("item-card", "card", "col-lg-3", "col-md-4", "col-sm-6", "col-xs-6");
-    item.innerHTML = `<div class='item-header'><span id='artistName${idNum}' class='brand-name'>${artist}</span></div><span id='itemImg${idNum}'><img class='item-images img-fluid card-img-top' src='${picture}' alt='images'></span><span class='item-footer'><span id='itemTitle${idNum}' class='item-name'>${title}</span><span id='itemPrice${idNum}'class='price-tag'>$ ${price},-</span></span><button onclick="detail(${idNum}, '${description}')" type='button' class='btn btn-primary item-btn' data-bs-toggle='modal' data-bs-target='#exampleModal'>Detail</button>`
+    item.innerHTML = `<div class='item-header'><span id='artistName${idNum}' class='brand-name'>${artist}</span></div><span id='itemImg${idNum}'><img class='item-images img-fluid card-img-top' src='${picture}' alt='images'></span><span class='item-footer'><span id='itemTitle${idNum}' class='item-name'><i class="bi bi-geo-alt"></i>${title}</span><span id='itemPrice${idNum}'class='price-tag'>$ ${price},-</span></span><button onclick="detail(${idNum}, '${description}')" type='button' class='btn btn-primary item-btn' data-bs-toggle='modal' data-bs-target='#exampleModal'>Detail</button>`
     let maincontent = document.getElementById('main-section');
     maincontent.prepend(item);
     e.preventDefault();
