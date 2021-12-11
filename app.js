@@ -7,7 +7,7 @@ function detail(num, str) {
     let mdlTitle = document.getElementById('mdl-title');
     let mdlImage = document.getElementById('mdl-img');
     let mdlPrice = document.getElementById('mdl-price');
-    mdlTitle.innerHTML = `${title.innerHTML} by ${artist.innerHTML}`
+    mdlTitle.innerHTML = `${artist.innerHTML} <p>${title.innerHTML}</p>`
     mdlImage.innerHTML = image.innerHTML;
     mdlDetail.innerHTML = str;
     mdlPrice.innerHTML = price.innerHTML;
